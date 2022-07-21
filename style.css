@@ -7,7 +7,6 @@
     darkgreen #1e3932
 */
 * {
-  color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -15,19 +14,32 @@
 html {
   display:flex;
   justify-content: center;
+  background-color: darkslategray;
+}
+body {
+  width: 800px;
 }
 nav {
   display:flex;
   justify-content: space-between;
+  font-size: 1.5em;
+  color: white;
 }
 header {
-  display:flex;
-  align-content: center;
+  background-color: lightgray;
+  margin: 10px 0;
+  font-size: 1.2em;
+  padding: 20px;
 }
 .city-list {
   display:flex;
   flex-direction: column;
+  gap: 0.5em;
+  border: solid 2px gray;
+  padding: 10px;
 }
 .city-item {
   background-color: darkgreen;
+  padding: 10px;
+  text-align: end;
 }
