@@ -12,4 +12,22 @@
   font-family: sans-serif;
 }
 
-/* your code */
+html {
+  display:flex;
+  justify-content: center;
+}
+nav {
+  display:flex;
+  justify-content: space-between;
+}
+header {
+  display:flex;
+  align-content: center;
+}
+.city-list {
+  display:flex;
+  flex-direction: column;
+}
+.city-item {
+  background-color: darkgreen;
+}
